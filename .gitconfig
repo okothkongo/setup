@@ -1,0 +1,17 @@
+[user]
+	email = okothkongo@gmail.com
+	name = okoth kongo
+[core]
+  editor = neovim
+[init]
+  defaultBranch = main
+[alias]
+  gs = status
+  gb = 'checkout -b'
+  gc = 'commit -m'
+  gps = 'push origin HEAD'
+  gpl = 'pull origin'
+  ga = add
+  gaa = 'add .'
+  gd = diff
+  gl = log
