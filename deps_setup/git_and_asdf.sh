@@ -10,8 +10,8 @@ function setup_git_and_asdf () {
   echo "" >> ~/.bashrc
   echo "" >> ~/.bashrc
   echo "#***Deps Setup***" >> ~/.bashrc
-  echo "" >> bashrc
-  echo  "#asdf" >> bashrc
+  echo "" >> ~/.bashrc
+  echo  "#asdf" >> ~/.bashrc
   echo '. "$HOME/.asdf/asdf.sh"' >> ~/.bashrc
   echo '. "$HOME/.asdf/completions/asdf.bash"' >> ~/.bashrc
   #TO DO implement source for zshrc
