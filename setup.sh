@@ -7,6 +7,7 @@ MYOS=$(uname)
 
 function initial_setup (){
   sudo apt-get update && sudo apt-get upgrade -y
+  sudo apt-get -y install ca-certificates curl gnupg lsb-release wget software-properties-common apt-transport-https
   sudo apt-get update -y
   source deps_setup/git_and_asdf.sh
   source deps_setup/shells.sh
@@ -26,6 +27,7 @@ if [[ $MYOS == "Linux" ]] ; then
   install_services
   other_installation
   install_browsers
+  echo 'eval "$(direnv hook bash)"' >> bashrc
   #TO DO implement source for zshrc
   source ~/.bashrc
  echo "Installations Successful."
