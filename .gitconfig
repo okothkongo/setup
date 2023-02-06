@@ -2,7 +2,7 @@
 	email = okothkongo@gmail.com
 	name = okoth kongo
 [core]
-  editor = neovim
+  editor = nvim
 [init]
   defaultBranch = main
 [alias]
