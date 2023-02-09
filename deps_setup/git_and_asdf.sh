@@ -1,7 +1,7 @@
 #!/bin/bash
 function setup_git_and_asdf () {
   sudo add-apt-repository -y ppa:git-core/ppa
-  sudo apt-get update
+  sudo apt-get update -y
   sudo apt-get install git -y
   echo "setting up git configs."
   cp .gitconfig ~/.gitconfig
