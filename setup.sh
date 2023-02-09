@@ -27,7 +27,6 @@ if [[ $MYOS == "Linux" ]] ; then
   install_services
   other_installation
   install_browsers
-  echo 'eval "$(direnv hook bash)"' >> bashrc
   #TO DO implement source for zshrc
   source ~/.bashrc
  echo "Installations Successful."

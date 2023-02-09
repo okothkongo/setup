@@ -11,9 +11,9 @@ function setup_elixir (){
   asdf install elixir 1.14.3
   asdf global elixir 1.14.3
 
-  mix local.hex --if-missing --force
-  mix local.rebar --if-missing --force
-  mix archive.install hex phx_new --if-missing --force
+  mix local.hex --force
+  mix local.rebar --force
+  mix archive.install hex phx_new --force
   echo "" >> ~/.bashrc
   echo "#elixir" >> ~/.bashrc
   echo export ERL_AFLAGS='"-kernel shell_history enabled"' >> ~/.bashrc
