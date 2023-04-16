@@ -2,7 +2,7 @@
 ######  **** alias ****
 
 #update and upgrade
-alias update='sudo apt-get update && sudo apt-get upgrade'
+alias update='sudo apt-get update && sudo apt-get upgrade -y'
 # elixir
 alias phx='iex -S mix phx.server'
 alias live_phx='lsof -wni tcp:4000'
